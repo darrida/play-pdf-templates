@@ -1,6 +1,7 @@
 # play-pdf-templates
 
 Simple first-time experimentation with the [weasyprint] (Python) package.
+
 **NOTE:** This is only meant as an experimental POC
 
 ## Usage
