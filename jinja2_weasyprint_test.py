@@ -86,7 +86,7 @@ data = [['E001', 'M', 34, 123, 'Normal', 350],
         ['E008', 'F', 26, 140, 'Normal', 120], 
         ['E009', 'M', 32, 133, 'Normal', 75], 
         ['E010', 'M', 36, 133, 'Underweight', 40] ] 
-  
+
 # dataframe created with 
 # the above data array 
 df = pd.DataFrame(data, columns = ['EMPID', 'Gender',  
@@ -95,13 +95,13 @@ df = pd.DataFrame(data, columns = ['EMPID', 'Gender',
 
 # create histogram for numeric data 
 df.hist() 
-  
+
 # save plot 
 plt.savefig('myfig.png')
 
 import weasyprint
 continuing = True
 for i in range(1,11):
-    if continuing==True:
+    if continuing:
         weasyprint.HTML(str(i) + '.html').write_pdf(str(i) + '.pdf')
         continuing = False
