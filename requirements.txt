@@ -6,7 +6,7 @@ defusedxml==0.6.0
 html5lib==1.0.1
 Jinja2==2.10.3
 MarkupSafe==1.1.1
-numpy==1.18.0
+numpy==1.22.0
 pandas==0.25.3
 Pillow==7.1.0
 pycparser==2.19
